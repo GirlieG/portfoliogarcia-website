@@ -1,124 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Girlie Garcia | Virtual Assistant</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girlie Garcia | Virtual Assistant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<!-- Header -->
 <header>
-
-<h1>Girlie Garcia</h1>
-
-<p>Customer Support Specialist | Virtual Assistant | IT Graduate</p>
-
+  <h1>Girlie Garcia</h1>
+  <p>Customer Support Specialist | Virtual Assistant | IT Graduate</p>
 </header>
 
-<nav>
-
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#contact">Contact</a>
-
+<!-- Navigation -->
+<nav id="navbar">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+  <a href="https://GirlieG.github.io/portfoliogarcia-website/resume.pdf" download class="btn">Download Resume</a>
 </nav>
 
+<!-- About Section -->
 <section id="about">
-
-<h2>About Me</h2>
-
-<p>
-IT graduate with 4+ years experience in customer support,
-email handling, CRM management, and administrative support.
-I help businesses manage customer communication and streamline
-their operations.
-</p>
-
+  <h2>About Me</h2>
+  <p>IT graduate with 4+ years experience in customer support, email handling, CRM management, and administrative support. I help businesses manage customer communication and streamline operations.</p>
 </section>
 
+<!-- Services Section -->
 <section id="services">
-
-<h2>Services</h2>
-
-<ul>
-
-<li>Email & Chat Customer Support</li>
-<li>Inbox and Calendar Management</li>
-<li>Data Entry and CRM Updates</li>
-<li>Administrative Support</li>
-<li>Customer Issue Resolution</li>
-
-</ul>
-
+  <h2>Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3>Email & Chat Customer Support</h3>
+      <p>Handle customer inquiries professionally across email and chat platforms.</p>
+    </div>
+    <div class="service-card">
+      <h3>Inbox & Calendar Management</h3>
+      <p>Organize schedules, manage inbox, and improve workflow efficiency.</p>
+    </div>
+    <div class="service-card">
+      <h3>Data Entry & CRM Updates</h3>
+      <p>Maintain and update customer databases accurately and timely.</p>
+    </div>
+    <div class="service-card">
+      <h3>Administrative Support</h3>
+      <p>Streamline business operations and provide reliable virtual assistance.</p>
+    </div>
+  </div>
 </section>
-<section id="experience">
 
-<h2>Work Experience</h2>
-
-<h3>Cognizant Technology Solutions</h3>
-
-<p>Senior Process Executive – 2025–2026</p>
-
-<h3>Teleperformance</h3>
-
-<p>Email Support Agent – 2021–2025</p>
-
-</section>
+<!-- Portfolio Section -->
 <section id="portfolio">
-
-<h2>Portfolio</h2>
-
-<p>Sample work and case studies.</p>
-
-<ul>
-
-<li>Customer Support Case Documentation</li>
-<li>Email Management Workflow</li>
-<li>Order Tracking and CRM Updates</li>
-
-</ul>
-
+  <h2>Portfolio</h2>
+  <p>Sample work and case studies:</p>
+  <ul>
+    <li>Customer Support Case Documentation</li>
+    <li>Email Management Workflow</li>
+    <li>Order Tracking and CRM Updates</li>
+  </ul>
 </section>
-  
-<section id="certifications">
 
-<h2>Certifications</h2>
-
-<ul>
-
-<li>Microsoft Office Specialist</li>
-<li>Computer System Servicing NCII</li>
-<li>Virtual Assistant Training</li>
-
-</ul>
-
-</section>
-<a href="https://GirlieG.github.io/portfoliogarcia-website/resume.pdf" download>Download My Resume</a>
+<!-- Contact Section -->
 <section id="contact">
-
-<h2>Contact Me</h2>
-
-<form action="contact.php" method="POST">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="email" name="email" placeholder="Your Email" required>
-
-<textarea name="message" placeholder="Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
+  <h2>Contact Me</h2>
+  <form action="contact.php" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
 </section>
 
-
-
-
+<!-- Footer -->
+<footer>
+  &copy; 2026 Girlie Garcia. All rights reserved.
+</footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
